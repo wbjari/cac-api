@@ -5,6 +5,8 @@ export type CarDocument = Car & Document;
 
 @Schema()
 export class Car {
+    // Mongoose ID toevoegen
+
     @Prop({ 
         type: String,
         required: true,
